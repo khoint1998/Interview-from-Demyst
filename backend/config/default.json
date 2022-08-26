@@ -1,4 +1,4 @@
 {
-    "mongoURI": "mongodb://localhost:27017/loan-system",
+    "mongoURI": "mongodb://localhost:27018/loan-system",
     "baseUrl": "http://localhost:8080"
 }
