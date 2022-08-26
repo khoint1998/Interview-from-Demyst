@@ -12,6 +12,6 @@ app.use(express.json({extended: false}));
 app.use('/', require('./route/index'));
 app.use('/api/url', require('./route/url'));
 
-const PORT = 3000;
+const PORT = 8080;
 
 app.listen(PORT, () => console.log(`Sever running on port ${PORT}`))
