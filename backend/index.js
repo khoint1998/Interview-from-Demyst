@@ -9,8 +9,8 @@ connectDB();
 app.use(express.json({extended: false}));
 
 //Define routes
-app.use('/', require('./route/index'));
-app.use('/api/url', require('./route/url'));
+app.use('/account-software', require('./routes/accountSoftware'));
+app.use('/decision-engine', require('./routes/decisionEngine'));
 
 const PORT = 8080;
 
